@@ -1,0 +1,8 @@
+FROM golang:1.10.0-alpine3.7
+
+WORKDIR /go/src/github.com/azeezolaniran2016/todo-api/
+
+RUN apk add --no-cache make git && \
+  go get github.com/codegangsta/gin
+
+EXPOSE 80
