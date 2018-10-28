@@ -1,6 +1,25 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "CSPbwbyzqA6sfORicn4HFtIhF/c=",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "d8f796af33cc11cb798c1aaeb27a4ebc5099927d",
+			"revisionTime": "2018-08-30T19:11:22Z"
+		},
+		{
+			"checksumSHA1": "LuFv4/jlrmFNnDb/5SCSEPAM9vU=",
+			"path": "github.com/pmezard/go-difflib/difflib",
+			"revision": "792786c7400a136282c1664665ae0a8db921c6c2",
+			"revisionTime": "2016-01-10T10:55:54Z"
+		},
+		{
+			"checksumSHA1": "v3LEmqP4Cb6qGCIP7mJk7l2ZXw8=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "04af85275a5c7ac09d16bb3b9b2e751ed45154e5",
+			"revisionTime": "2018-10-09T18:43:15Z"
+		}
+	],
 	"rootPath": "github.com/azeezolaniran2016/todo-api"
 }

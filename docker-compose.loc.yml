@@ -1,0 +1,20 @@
+version: "3"
+services:
+  todo-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.loc
+    container_name: todo-api-dev
+    image: todo-api-dev
+    command: 'make dev/run'
+    env_file:
+      - ./env/loc.env
+    ports:
+      - '9010:80'
+      - '3000:3000' # Gin
+    volumes:
+      - .:/go/src/github.com/azeezolaniran2016/todo-api/
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
